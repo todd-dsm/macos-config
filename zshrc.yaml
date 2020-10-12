@@ -1,0 +1,11 @@
+---
+- name: Push a simplified zshrs file
+  hosts: macos
+  tasks:
+    - name: Pushing a ~/.zshrc file
+      copy:
+        src: configs/zshrc
+        dest: ~/.zshrc
+        owner: thomas
+        group: staff
+        mode: '0640'

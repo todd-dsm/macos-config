@@ -1,0 +1,3 @@
+# A starter zshrc file
+alias -g ll='ls -l'
+alias -g la='ls -al'
